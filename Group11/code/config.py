@@ -1,0 +1,9 @@
+config={
+    'step_time':120,
+     'train':{
+        'LSTM':{'lr':1e-4,'iters':100},
+        'GRU':{'lr':1e-4,'iters':50},
+        'MA':{},
+        'NN':{'lr':1e-2,'iters':30},
+     }
+}
